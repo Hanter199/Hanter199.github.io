@@ -1,0 +1,48 @@
+@media (max-width:991px) {
+    /*TOP SECTION*/
+    .hamburger {
+        display: inline-block;
+    }
+    .nav  {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        display: none;
+        z-index: 999;
+    }
+     .nav li  {
+        float: none;
+        margin-left: 0 ;
+    }
+    .nav a {
+        background: gray;
+    }
+    .nav a:hover {
+        background: #000;
+    }
+    .link:hover .nav {
+        display: none;
+    }/* END TOP SECTION   */
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 7px;
+    }
+
+    
+/*  ABOUT  */
+    .about-right {
+        margin-top: 4rem;
+    }/*  END ABOUT  */
+    
+/*  PORTFOLIO  */
+    .portfolio-categories {
+    width: 39.5rem;
+}
+    .portfolio-btn {
+        padding: 0 1rem;
+        margin-left: 1rem;
+    }/*  END PORTFOLIO  */
+}
