@@ -1,0 +1,31 @@
+@media (max-width:768px) {
+    html {
+        font-size: 7px;
+    }
+    
+    .hamburger {
+        display: inline-block;
+    }
+    .nav  {
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        display: none;
+        z-index: 999;
+    }
+    .nav li  {
+        float: none;
+    }
+    .nav a {
+        padding-left: 0;
+        background: gray;
+    }
+    
+    .nav a:hover {
+        background: #000;
+    }
+    .link:hover .nav {
+        display: none;
+    }
+}
