@@ -1,8 +1,4 @@
-@media (max-width:768px) {
-    html {
-        font-size: 7px;
-    }
-    
+@media (max-width:995px) {
     .hamburger {
         display: inline-block;
     }
@@ -29,3 +25,11 @@
         display: none;
     }
 }
+    
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 7px;
+    }
+    
