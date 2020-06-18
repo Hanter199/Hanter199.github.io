@@ -1,3 +1,7 @@
+ @media (max-width:768px) {
+    html {
+        font-size: 9px;
+    }
 
 @media (max-width:995px) {
     .hamburger {
@@ -26,7 +30,4 @@
         display: none;
     }
 }
-    @media (max-width:768px) {
-    html {
-        font-size: 9px;
-    }
+   
